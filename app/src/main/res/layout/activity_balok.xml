@@ -10,11 +10,35 @@
         android:id="@+id/editTextPanjang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Panjang sisi"
+        android:hint="Panjang"
         android:inputType="numberDecimal"
         android:padding="12dp"
-        android:textColor="@android:color/black"
         android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextLebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lebar"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/edittext_background"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextTinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tinggi"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
         android:background="@drawable/edittext_background"
         android:layout_marginBottom="16dp"/>
 
